@@ -1,0 +1,131 @@
+:root {
+  --main-color: #30343F;
+  --sub-color: #273469;
+  --text-color: #FAFAFF;
+}
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: var(--main-color);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#app {
+  color: var(--text-color);
+  margin: 0 auto;
+  font-family: roboto, sans-serif;
+}
+
+.page-name {
+  background-color: (--main-color);
+  padding: auto;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  width: 40%;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+#new-tweet-container {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px 0;
+}
+#new-tweet-container h2 {
+  color: #FFFFFF;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+}
+fieldset {
+  border-radius: 5px;
+}
+label {
+  font-weight: Bold;
+  letter-spacing: 0.05em;
+}
+input {
+  width: 90%;
+}
+
+#feed {
+  display: grid;
+  row-gap: 5px;
+}
+#feed h1 {
+  margin: 10px auto;
+  font-size: 36px;
+}
+#update-feed {
+  width: 10%;
+  text-align: center;
+  margin: 0px 10px 0px auto;
+}
+#tweet {
+  background-color: var(--sub-color);
+  display: grid;
+  border-radius: 5px;
+  width: 75%;
+  margin: 0px auto;
+}
+img {
+  margin: 5px auto;
+  border-radius: 50%;
+}
+#tweet .username {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 18px;
+}
+.message {
+  background-color: var(--sub-color);
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px auto;
+  font-size: 24px;
+  text-align: center;
+}
+.timestamp {
+  color: #FFFFFF;
+  margin: 5px 10px 5px auto;
+}
+.icons {
+  margin: 0 auto;
+}
+.far,
+.fas {
+  font-size: 24px;
+  padding: 5px 60px;
+}
+
+#friends-list {
+  list-style-type: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  margin: 2px 0;
+}
